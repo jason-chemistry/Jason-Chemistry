@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#3299cc"
+		>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+		<TextView
+				android:text="联系人"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				/>
+		<EditText
+				android:id="@+id/EditText1"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_alignParentRight="true"
+				/>
+	</LinearLayout>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+		<TextView
+				android:text="号码"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				/>
+		<EditText
+				android:id="@+id/EditText2"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_alignParentRight="true"
+				/>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="0dp"
+		    android:layout_height="30dp"
+		    android:layout_weight="1"
+		     android:background="@drawable/a"
+		    android:text="从本地图库添加" />
+
+		<Button
+		    android:id="@+id/button2"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="30dp"
+		    android:background="@drawable/b"
+		    android:text="从相机拍摄添加" />
+	    
+	</LinearLayout>
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="200px"
+	    android:layout_height="200px"
+	     />
+	
+</LinearLayout>

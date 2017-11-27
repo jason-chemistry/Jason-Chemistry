@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:title="添加联系人">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="修改联系人">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="删除联系人">
+    </item>
+     <item
+        android:id="@+id/item4"
+        android:title="发送短信">
+    </item>
+
+</menu>
